@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+/* .navbar-container {
+  position: fixed;
+  top: 0;
+} */
+
+.navbar-container > div > img {
+  width: 130px;
+  position: relative;
+  top: 2rem;
+  left: 5rem;
+}
+
+.list li {
+  font-family: "Orbitron";
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  top: 0.5rem;
+  left: 28rem;
+}
+
+.list li:first-child {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.button-group {
+  display: inline-block;
+  position: absolute;
+  top: 0.2rem;
+  left: 80vw;
+}
+
+.search-icon,
+.nav-button {
+  display: inline-block;
+}
+
+.search-icon > svg {
+  width: 80%;
+}
+
+.search-icon {
+  position: relative;
+  top: 2.3rem;
+  left: 10%;
+}
+
+.nav-button {
+  position: absolute;
+  top: 2.3rem;
+  left: 2.5rem;
+  padding: 0.3rem 2rem;
+  font-family: "Poppins";
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+}
+
+.hero-container {
+  display: inline-block;
+  position: absolute;
+  top: 55vh;
+  left: 40vh;
+}
+
+.globe > img {
+  display: inline-block;
+  position: relative;
+  bottom: 67vh;
+  left: 10%;
+  width: 50px;
+}
+
+.square > img {
+  width: 300px;
+  position: relative;
+  top: 10vh;
+}
+
+.star > img {
+  width: 50px;
+  position: relative;
+  top: 5vh;
+  left: 5vw;
+}
+
+div > img {
+  display: inline-block;
+  width: 390px;
+  position: absolute;
+  top: -20vh;
+  left: -12vw;
+}
+
+.hero-container > h1,
+p {
+  width: 100%;
+}
+
+.hero-container-right {
+  font-family: "Orbitron";
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 52%;
+  top: -50vh;
+  left: 30vw;
+}
+
+.hero-heading {
+  font-size: 2.9rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+
+.hero-description {
+  display: inline-block;
+  /* width: 70%; */
+  font-size: 75%;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.button-email,
+.button-join {
+  font-family: "Orbitron";
+  padding: 0.3rem 2rem;
+  border-radius: 0.6rem;
+  margin: 1rem 0;
+  background-color: #ffffff;
+}
+
+.button-join {
+  background-color: #000000;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+
+.contact-heading {
+  margin-top: 3rem;
+}
+.icons {
+  margin-top: 1rem;
+}
+
+.icons > span > img {
+  width: 50px;
+  padding-left: 0.8rem;
+}
